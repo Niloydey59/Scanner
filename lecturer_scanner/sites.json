@@ -1,0 +1,42 @@
+{
+  "keywords": [
+    "lecturer",
+    "senior lecturer"
+  ],
+  "sites": [
+    { "name": "NSU - Careers Portal", "url": "https://jobs.northsouth.edu/" },
+    { "name": "BRAC University - Career Portal", "url": "https://career.bracu.ac.bd/" },
+    { "name": "Dhaka University - Job Portal", "url": "https://jobs.du.ac.bd/" },
+    { "name": "AIUB - Career Portal", "url": "https://career.aiub.edu/" },
+    { "name": "IUB - Jobs at IUB", "url": "https://iub.ac.bd/news-and-events/jobs-at-iub" },
+    { "name": "IUT - Job Circular", "url": "https://www.iutoic-dhaka.edu/circular" },
+    { "name": "BUET CSE - Notices", "url": "https://cse.buet.ac.bd/web/home/all_notice" },
+    { "name": "UIU - Career", "url": "https://www.uiu.ac.bd/career/" },
+    { "name": "EWU - Career", "url": "https://www.ewubd.edu/career" },
+    { "name": "DIU - Career", "url": "https://daffodilvarsity.edu.bd/career" },
+    { "name": "AUST - Vacancy", "url": "https://www.aust.edu/vacancy" },
+    { "name": "Green University - Career", "url": "https://career.green.edu.bd/current-circular/" },
+    { "name": "Southeast University - Career", "url": "https://jobs.seu.edu.bd/" },
+    { "name": "Stamford University - Career", "url": "https://stamforduniversity.edu.bd/index.php/stamford/career" },
+    { "name": "BUBT - Career", "url": "https://www.bubt.edu.bd/page/career" },
+    { "name": "World University of Bangladesh - Career", "url": "https://jobs.wub.edu.bd/main/current_vacancies" },
+    { "name": "City University - Home", "url": "https://www.cityuniversity.ac.bd/" },
+    { "name": "IUBAT - Career", "url": "https://iubat.edu/career/" },
+    { "name": "Uttara University - Career", "url": "https://www.uttara.ac.bd/career/" },
+    { "name": "Northern University Bangladesh - Jobs", "url": "https://nub.ac.bd/nub/job" },
+    { "name": "Primeasia University - Career", "url": "https://primeasia.edu.bd/others/career/" },
+    { "name": "UITS - Career", "url": "https://career.uits.ac.bd/" },
+    { "name": "ASA University - Career", "url": "http://www.asaub.edu.bd/career.php" },
+    { "name": "Sonargaon University - Career", "url": "https://su.edu.bd/welcome/career" },
+    { "name": "State University of Bangladesh - Home", "url": "https://www.sub.ac.bd/" },
+    { "name": "Manarat International University - Home", "url": "https://manarat.ac.bd/" },
+    { "name": "Eastern University - Career", "url": "https://www.easternuni.edu.bd/career" },
+    { "name": "IIUC - Career", "url": "https://www.iiuc.ac.bd/home/career" },
+    { "name": "East Delta University - Academic Vacancies", "url": "https://www.eastdelta.edu.bd/career-opportunities/academic-vacancies" },
+    { "name": "Premier University Chittagong - Career", "url": "https://www.puc.ac.bd/Home/Content/?Alias=career" },
+    { "name": "Southern University Bangladesh - Employment", "url": "https://southern.ac.bd/employment-2/" },
+    { "name": "USTC - Home", "url": "https://ustc.ac.bd/" },
+    { "name": "Asian University for Women - Career", "url": "https://asian-university.org/career-opportunities/" },
+    { "name": "Port City International University - Home", "url": "https://portcity.edu.bd/" }
+  ]
+}

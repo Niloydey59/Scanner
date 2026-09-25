@@ -1,0 +1,23 @@
+{
+  "keywords": [
+    "research assistant",
+    "research associate",
+    "senior research assistant",
+    "research fellow"
+  ],
+  "sites": [
+    { "name": "icddr,b - Careers", "url": "https://career.icddrb.org/" },
+    { "name": "BIDS - Career", "url": "https://bids.org.bd/page/career/" },
+    { "name": "CPD - Positions", "url": "https://cpd.org.bd/position-to-be-filled-up-immediately/" },
+    { "name": "CPD - Career Opportunities (NRB)", "url": "https://cpd.org.bd/career-opportunities-for-nrbs-at-cpd/" },
+    { "name": "BRAC JPGSPH - Career", "url": "https://bracjpgsph.org/career" },
+    { "name": "BIGD - Employment Opportunities", "url": "https://bigd.bracu.ac.bd/job/" },
+    { "name": "BUET CSE - Notices", "url": "https://cse.buet.ac.bd/web/home/all_notice" },
+    { "name": "DU CSE - Home/Notices", "url": "https://www.cse.du.ac.bd/" },
+    { "name": "NSU - Careers Portal", "url": "https://jobs.northsouth.edu/" },
+    { "name": "BRACU CSE - Home", "url": "https://cse.bracu.ac.bd/" },
+    { "name": "IUT - Job Circular", "url": "https://www.iutoic-dhaka.edu/circular" },
+    { "name": "IUB - Jobs at IUB", "url": "https://iub.ac.bd/news-and-events/jobs-at-iub" },
+    { "name": "AIUB - Career Portal", "url": "https://career.aiub.edu/" }
+  ]
+}

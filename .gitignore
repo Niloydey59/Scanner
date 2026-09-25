@@ -1,0 +1,31 @@
+# Personal credentials and email settings -- never commit these
+ra_job_scanner/config.json
+lecturer_scanner/config.json
+
+# Per-user runtime state (which postings/pages have already been seen)
+ra_job_scanner/state.json
+lecturer_scanner/state.json
+
+# Run logs
+ra_job_scanner/scan_log.txt
+lecturer_scanner/scan_log.txt
+
+# Built executables (large binaries -- build locally with the command in README)
+*.exe
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor/OS cruft
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

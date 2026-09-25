@@ -56,7 +56,30 @@ occasionally re-trigger without an actual new opening.
 
 ## Usage
 
-From inside either scanner's folder:
+Once `config.json` is set up (see Setup above), run from the repo root:
+
+### With `make` (recommended)
+
+```bash
+make setup             # installs requirements.txt + pyinstaller
+make run-ra             # run the RA/Research Associate scanner once
+make run-lecturer        # run the Lecturer scanner once
+make dry-run-ra          # preview what would be emailed, without sending
+make dry-run-lecturer
+make build                # build both standalone .exe files, so you can
+                           # double-click them without a Python install
+make build-ra              # or build just one
+make build-lecturer
+make clean                  # remove PyInstaller build artifacts
+```
+
+Built exes land back in their own scanner folder, next to `sites.json`/
+`config.json`, ready to double-click.
+
+### Alternative: without `make`
+
+No `make` on your system (e.g. plain Windows without Git Bash/WSL)? Run
+`scan.py` directly from inside either scanner's folder:
 
 ```bash
 python scan.py            # normal run: check sites, email digest if anything new
@@ -64,27 +87,15 @@ python scan.py --dry-run  # check sites, print what WOULD be emailed, send nothi
 python scan.py --force    # ignore stored hashes, treat every keyword match as new
 ```
 
-The first run against a fresh `state.json` emails you a baseline of
-everything currently matching — later runs only email about genuine changes.
-
-### Optional: build a standalone .exe
-
-So you can double-click it without a Python install, after setting up
-`config.json` as above:
+To build the exe manually instead of `make build`:
 
 ```bash
-make setup   # installs requirements.txt + pyinstaller
-make build   # builds both RA_Job_Scanner.exe and Lecturer_Job_Scanner.exe
+pip install pyinstaller
+python -m PyInstaller --onefile --console --name "Scanner" --clean scan.py
 ```
 
-Or build just one: `make build-ra` / `make build-lecturer`. The exe lands
-back in its own scanner folder, next to `sites.json`/`config.json`, ready to
-double-click. (No `make`? Run the `python -m PyInstaller ...` command shown
-in the Makefile directly.)
-
-`make run-ra` / `make run-lecturer` and `make dry-run-ra` /
-`make dry-run-lecturer` are shortcuts for running `scan.py` directly instead
-of building an exe. `make clean` removes PyInstaller build artifacts.
+The first run against a fresh `state.json` emails you a baseline of
+everything currently matching — later runs only email about genuine changes.
 
 ### Automating it
 
